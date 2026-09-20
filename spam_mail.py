@@ -1,6 +1,4 @@
 import pandas as pd
-from sklearnex import patch_sklearn
-patch_sklearn()
 from sklearn.model_selection import train_test_split as tts
 from sklearn.feature_extraction.text import CountVectorizer as cvt
 from sklearn.naive_bayes import MultinomialNB as mnb
